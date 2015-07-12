@@ -1,4 +1,6 @@
 # dashmonit
+
+[![Join the chat at https://gitter.im/dashmonit/dashmonit](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dashmonit/dashmonit?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Real-time dashboards
 
 [![Build Status][travis-image]][travis-url]
