@@ -1,0 +1,82 @@
+{
+  "name": "dashmonit",
+  "version": "1.0.0",
+  "description": "Real-time dashboards",
+  "author": "Lukasz Bieniek",
+  "engines": {
+    "node": ">= 0.10.36",
+    "npm": ">= 2.3.0"
+  },
+  "main": "app.js",
+  "homepage": "https://dashmonit.github.io/",
+  "keywords": ["dashboards"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dashmonit/dashmonit.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dashmonit/dashmonit/issues"
+  },
+  "scripts": {
+    "postinstall": "gulp build",
+    "start": "gulp run",
+    "watch": "gulp watch",
+    "test": "gulp test"
+  },
+  "browserify": {
+    "transform": [
+      "coffeeify",
+      "haml-coffee-browserify"
+    ]
+  },
+  "dependencies": {
+    "backbone": "1.2.1",
+    "backbone-associations": "0.6.2",
+    "backbone-validation": "0.11.5",
+    "backbone.marionette": "2.4.2",
+    "backbone.routefilter": "git+https://git@github.com/boazsender/backbone.routefilter.git",
+    "backbone.stickit": "0.9.2",
+    "browser-sync": "~2.7.13",
+    "browserify": "^6.3.4",
+    "browserify-incremental": "^1.5.0",
+    "browserify-shim": "^3.8.9",
+    "browserify-hogan": "0.3.0",
+    "coffeeify": "~0.7.0",
+    "del": "^1.1.1",
+    "express": "4.13.1",
+    "gulp": "^3.8.7",
+    "gulp-autoprefixer": "^2.0.0",
+    "gulp-changed": "^0.4.1",
+    "gulp-coffeelint": "^0.5.0",
+    "gulp-iconfont": "^1.0.0",
+    "gulp-imagemin": "^0.6.2",
+    "gulp-load-plugins": "~0.10.0",
+    "gulp-nodemon": "2.0.3",
+    "gulp-notify": "^1.4.2",
+    "gulp-rename": "~1.2.0",
+    "gulp-sass": "^2.0.3",
+    "gulp-scss-lint": "^0.2.1",
+    "gulp-sequence": "^0.3.2",
+    "gulp-sourcemaps": "^1.2.8",
+    "gulp-swig": "~0.7.4",
+    "gulp-util": "~3.0.2",
+    "gulp-watch": "^4.2.4",
+    "haml-coffee-browserify": "0.0.4",
+    "jade": "1.11.0",
+    "jquery": "~2.1.1",
+    "jquery-ui": "~1.10.5",
+    "merge-stream": "^0.1.7",
+    "node-neat": "1.7.2",
+    "node-bourbon": "4.2.3",
+    "node-normalize-scss": "1.0.3",
+    "pretty-hrtime": "~0.2.1",
+    "require-dir": "^0.1.0",
+    "screenfull": "2.0.0",
+    "through": "^2.3.8",
+    "underscore": "1.8.3",
+    "watchify": "^2.2.1",
+    "ws": "0.7.2",
+    "vinyl-source-stream": "~0.1.1"
+  }
+}
